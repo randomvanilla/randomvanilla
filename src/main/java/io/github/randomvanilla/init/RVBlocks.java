@@ -1,7 +1,7 @@
-package com.gitlab.randomvanilla.init;
+package io.github.randomvanilla.init;
 
 import co.origamigames.sheet.SheetLib;
-import com.gitlab.randomvanilla.RandomVanilla;
+import io.github.randomvanilla.RandomVanilla;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

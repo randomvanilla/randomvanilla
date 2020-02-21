@@ -14,8 +14,8 @@
     ],
     "contact": {
         "homepage": "https://curseforge.com/minecraft/mc-mods/randomvanilla",
-        "sources": "https://gitlab.com/RandomVanilla/RandomVanilla",
-        "issues": "https://gitlab.com/RandomVanilla/RandomVanilla/issues"
+        "sources": "https://github.com/randomvanilla/randomvanilla",
+        "issues": "https://github.com/randomvanilla/randomvanilla/issues"
     },
 
     "license": "GPL-3.0",
@@ -24,14 +24,15 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.gitlab.randomvanilla.RandomVanilla"
+            "io.github.randomvanilla.RandomVanilla"
         ]
     },
     "mixins": [],
     "depends": {
         "fabricloader": ">=0.7.2",
         "fabric": "*",
-        "minecraft": "1.15.x"
+        "minecraft": "1.16.x",
+        "sheet-lib": ">=1.4.0"
     },
     "suggests": {
         "flamingo": "*"

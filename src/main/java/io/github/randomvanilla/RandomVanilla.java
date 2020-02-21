@@ -1,6 +1,6 @@
-package com.gitlab.randomvanilla;
+package io.github.randomvanilla;
 
-import com.gitlab.randomvanilla.init.*;
+import io.github.randomvanilla.init.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
