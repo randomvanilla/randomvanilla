@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+    "id": "random-vanilla",
+    "version": "${version}",
+
+    "name": "Random Vanilla",
+    "description": "Random Vanilla is a Minecraft mod that adds random, vanilla-like features!",
+    "authors": [
+        "Sander",
+        "Andante",
+        "BeardieButt",
+        "Aixiis",
+        "Marion"
+    ],
+    "contact": {
+        "homepage": "https://curseforge.com/minecraft/mc-mods/randomvanilla",
+        "sources": "https://gitlab.com/RandomVanilla/RandomVanilla",
+        "issues": "https://gitlab.com/RandomVanilla/RandomVanilla/issues"
+    },
+
+    "license": "GPL-3.0",
+    "icon": "pack.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.gitlab.randomvanilla.RandomVanilla"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.7.2",
+        "fabric": "*",
+        "minecraft": "1.15.x"
+    },
+    "suggests": {
+        "flamingo": "*"
+    }
+}

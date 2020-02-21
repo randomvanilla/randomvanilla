@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "minecraft:fishes"
+        },
+        {
+            "tag": "minecraft:fishes"
+        },
+        {
+            "tag": "minecraft:fishes"
+        },
+        {
+            "tag": "minecraft:fishes"
+        },
+        {
+            "tag": "minecraft:fishes"
+        },
+        {
+            "tag": "minecraft:fishes"
+        },
+        {
+            "item": "minecraft:barrel"
+        }
+    ],
+    "result": {
+        "item": "random-vanilla:fish_barrel"
+    }
+}

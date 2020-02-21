@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "random-vanilla:block/fish_barrel" }
+        ]
+    }
+}
